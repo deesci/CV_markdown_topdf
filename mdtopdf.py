@@ -9,7 +9,7 @@
 # %%
 pathfile = "/"
 pathroot = pathfile.rsplit('/',1)[0]
-markfile = pathroot+ "output.md"
+markfile = pathroot+ "input.md"
 
 with open(markfile, 'r') as file:
     text = file.read()
